@@ -1,0 +1,53 @@
+
+
+Collection Interface
+-A collection represents a group of objects, known as its elements. 
+-Some collections allow duplicate elements and others do not. 
+-Some are ordered and others unordered. 
+-The JDK does not provide any direct implementations of this interface: it provides implementations of more specific subinterfaces like Set and List. 
+-This interface is typically used to pass collections around and manipulate them where maximum generality is desired.
+
+-Some collection implementations have restrictions on the elements that they may contain. For example, some implementations prohibit null elements, and some have restrictions on the types of their elements. Attempting to add an ineligible element throws an unchecked exception, typically NullPointerException or ClassCastException.
+
+
+Methods provided by Collection Interface
+-size()
+-isEmpty()
+-contains()
+-iterator()
+-toArray()
+-add()
+-remove()
+-containsAll()
+-addAll()
+-removeAll()
+-removeIf()
+-retainAll()
+-clear()
+-equals()
+-hashCode()
+-spliterator()
+-stream()
+-parallelStream()
+
+NOTE: These methods must be implemented by all classes that are indirectly implementing Collection interface.
+
+
+Collection vs Collections
+-Collection interface represents the root interface in the collection hierarchy. It contains the core methods for all collections. List, Set and Queue are immediate sub interfaces of Collection interface.
+-Collections class in java represents an utility class in java.util package. It contains exclusively static methods that operate on or return collections. It consists of polymorphic algorithms that operate on collections, “wrappers”, which in turn return a new collection backed by a specified collection.
+
+Similarities
+-Both are part of the Java Collections Framework.
+-Both are present in java.util package.
+-Both are added to jdk in java version 1.2
+
+
+
+
+
+
+
+
+
+
