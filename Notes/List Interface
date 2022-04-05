@@ -1,0 +1,11 @@
+
+
+List Interface
+
+-List is an ordered collection (also known as a sequence). 
+-The user of this interface has precise control over where in the list each element is inserted. 
+-The user can access elements by their integer index (position in the list), and search for elements in the list.
+-Unlike sets, lists typically allow duplicate elements
+-Some list implementations have restrictions on the elements that they may contain. For example, some implementations prohibit null elements, and some have restrictions on the types of their elements. Attempting to add an ineligible element throws an unchecked exception, typically NullPointerException or ClassCastException.
+
+-Most used List implementation classes are ArrayList, LinkedList and Vector. Vector has another sub-class which is known as Stack.
