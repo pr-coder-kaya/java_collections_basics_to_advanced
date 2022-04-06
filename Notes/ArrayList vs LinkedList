@@ -1,0 +1,5 @@
+
+
+ArrayList vs LinkedList
+-ArrayList are not recommended to use for inserting and removing elements in the middle of the list while LinkedList is the best choice to use for frequent element insertion and deletion.
+-ArrayList is better to choose for retrieving elements from the list compared to LinkedList as it is using nodes.
