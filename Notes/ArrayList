@@ -1,13 +1,12 @@
 
 
 ArrayList
--ArrayList is known as resizeable arrays or dynamic sized arrays.
+-ArrayList is known as resizable arrays or dynamic sized arrays.
+-It is an ordered collection that allows duplicate objects
+-Insertion order is preserved
+-null elements are allowed
 
-
-
-
-
-
-
-
-
+SYNTAX:
+ArrayList<T> variableName = new ArrayList<>();
+ArrayList<T> variableName = new ArrayList<>(initialSize);
+ArrayList<T> variableName = new ArrayList<>(collection);

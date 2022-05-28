@@ -1,3 +1,19 @@
 
 
 LinkedList
+-LinkedList can be defined as collection of objects called nodes that are randomly stored in the memory
+-A node contains two fields: data stored at that particular address and the pointer which contains the address of the next node in the memory
+-The last node of the list contains pointer to the null
+-Insertion order is preserved
+-null elements are allowed
+-Duplication is allowed
+
+***LinkedList implements List Interface as well as Queue that it needs to override more methods compared to ArrayList
+
+
+
+SYNTAX:
+LinkedList<T> variableName = new LinkedList<>();
+LinkedList<T> variableName = new LinkedList<>(collection);
+
+

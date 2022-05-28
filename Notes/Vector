@@ -1,0 +1,15 @@
+
+
+Vector
+-Vector is also known as resizable arrays.
+-It is an ordered collection that allows duplicate objects
+-Insertion order is preserved
+-null elements are allowed
+
+ArrayList vs Vector
+-Vector is similar to ArrayList but it is synchronized and is used with a single thread at a time.
+-Vector is thread-safe while ArrayList is not.
+-ArrayList is faster considering performance as it is not thread-safe.
+
+SYNTAX:
+Vector<T> variableName = new Vector<>();
