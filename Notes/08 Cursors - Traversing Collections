@@ -1,0 +1,22 @@
+
+
+Cursors
+-Cursor is an interface and it is used to retrieve or fetch the objects or elements one by one from the Collection objects.
+-Cursor has 3 types
+	1. Enumaration Interface
+	2. Iterator Interface
+	3. ListIterator Interface
+
+NOTE: Also, Spliterator is added as a new cursor with Java 8.
+-It provides support for parallel processing of stream of elements for any collection. 
+-It provides tryAdvance() method to iterate elements individually in different threads. 
+-It helps in parallel processing.
+
+
+
+Enumeration vs Iterator vs ListIterator in Java
+-Enumeration is used in the collection framework in java to retrieve the elements one by one. 
+-Enumeration is a legacy interface that is applicable only for legacy classes like Vector, HashTable, Stack, etc. 
+-It provides a single direction of iteration. 
+-By using enumeration, we can perform only read operation.
+-It provides hasMoreElements() method to check if elements are presented and nextElement() to retrieve next element.
