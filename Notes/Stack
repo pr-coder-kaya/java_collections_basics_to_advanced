@@ -1,0 +1,29 @@
+
+
+Stack
+-Stack class in Java implements a Stack data structure. 
+-The class is based on the basic principle of last-in-first-out. 
+-In addition to the basic push and pop operations, the class provides three more functions of empty, search, and peek. 
+-The class can also be said to extend Vector and treats the class as a stack with the five mentioned functions. 
+-The class can also be referred to as the subclass of Vector.
+-It is an ordered collection that allows duplicate objects
+-Insertion order is preserved
+-null elements are allowed
+
+SYNTAX:
+Stack<T> variableName = new Stack<>();
+
+
+Important operations of Stack
+1. Adding elements
+	-push() method is used to add an element to the top of the Stack.
+
+2. Retrieving elements
+	-peek() is used to retrieve or fetch the first element of the Stack which is represented at the top of the Stack.
+	-peek() method does not delete or remove the element from the stack.
+
+3.Retrieve and remove the element
+	-pop() method is used to pop an element from the top of the stack and removes it.
+
+
+In addition to above methods, empty() method is used to check if the Stack is empty and returns a boolean while search(Object) method is used to check if a particular object exists in the Stack. search() method returns the position of the object if it finds the element, -1 otherwise.

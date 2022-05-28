@@ -5,7 +5,7 @@ import java.util.Vector;
 public class _04_Vector {
     public static void main(String[] args) {
 
-        //Creating an Vector
+        //Creating a Vector
         Vector<String> vector = new Vector<>(50, 5);
 
         //Adding objects to Vector using add(object) method
