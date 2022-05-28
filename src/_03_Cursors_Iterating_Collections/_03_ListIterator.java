@@ -1,6 +1,5 @@
 package _03_Cursors_Iterating_Collections;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
 

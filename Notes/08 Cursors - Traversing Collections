@@ -51,3 +51,12 @@ Enumeration vs Iterator vs ListIterator in Java
 NOTE: While traversing backward, we can use hasPrevious(), previous() methods
 
 NOTE: It also provides nextIndex() and previousIndex() methods which return indexes of previous or next elements would be returned by a subsequent call.
+
+
+
+Iterator vs For each loop
+-Iterator is an interface provided by collection framework to traverse a collection and for a sequential access of items in the collection while for each loop is meant for traversing items in a collection one by one. 
+
+MAIN DIFFERENCE:In for-each loop, we can’t modify collection, it will throw a ConcurrentModificationException on the other hand with iterator we can modify collection. Modification means removing or adding element while traversing which changes the size of the collection.
+
+
