@@ -19,4 +19,22 @@ Enumeration vs Iterator vs ListIterator in Java
 -Enumeration is a legacy interface that is applicable only for legacy classes like Vector, HashTable, Stack, etc. 
 -It provides a single direction of iteration. 
 -By using enumeration, we can perform only read operation.
--It provides hasMoreElements() method to check if elements are presented and nextElement() to retrieve next element.
+-It provides 
+	-hasMoreElements() method to check if elements are presented 
+	-nextElement() method to retrieve the next element.
+
+
+
+-Iterator is a universal cursor that can be applied to any collection object. 
+-It provides a single direction iteration. 
+-By using an iterator, we can perform both read and remove operation, but we cannot perform replace operation. 
+-Iterator must be used whenever we want to enumerate elements in all collection framework implemented interfaces like Set, List, Queue, DeQue.
+-It provides 
+	-hasNext() method to check if elements are presented
+	-next() method to retrieve the next element.
+	-remove() method to remove-delete the current element.
+
+
+
+
+

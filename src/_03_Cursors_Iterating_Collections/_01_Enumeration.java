@@ -23,15 +23,14 @@ public class _01_Enumeration {
         //Printing the Vector
         System.out.println(vector); // [10, 11, 12, 13, 14]
 
-        //Creating Enumeration using elements() method of Vector class
-        Enumeration e = vector.elements();
+        //Creating Enumeration using elements() method
+        Enumeration<Integer> e = vector.elements();
 
 
         //Retrieving or reading each element in the Vector using Enumeration methods with while loop
         while(e.hasMoreElements()){
             System.out.println(e.nextElement());
         }
-
         /*
         EXPECTED OUTPUT:
         10
@@ -40,5 +39,8 @@ public class _01_Enumeration {
         13
         14
          */
+
+        //Printing the Vector
+        System.out.println(vector); // [10, 11, 12, 13, 14]
     }
 }
