@@ -7,7 +7,7 @@ public class _02_Iterator {
     public static void main(String[] args) {
         /*
         Iterator is a universal cursor that can be applied to any collection object.
-        So, let's create an ArrayList collection object and see how to iterate it using Enumeration.
+        So, let's create an ArrayList collection object and see how to iterate it using Iterator.
          */
 
         //Creating an ArrayList

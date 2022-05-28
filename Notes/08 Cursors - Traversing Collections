@@ -36,5 +36,18 @@ Enumeration vs Iterator vs ListIterator in Java
 
 
 
+-ListIterator is the most powerful cursor among all the three cursors. 
+-ListIterator is only applicable for list implemented classes like ArrayList, LinkedList, Stack, etc. 
+-ListIterator traverses both in the forward and backward direction. 
+-By using ListIterator, we can perform read, remove, and replace operation. 
+-The ListIterator must be used when we want to enumerate elements of the list.
+-It provides 
+	-hasNext() method to check if elements are presented
+	-next() method to retrieve the next element.
+	-remove() method to remove-delete the current element.
+	-add(Object) method to add an object next to current element
+	-set(Object) method to update-replace current object with a new object
 
+NOTE: While traversing backward, we can use hasPrevious(), previous() methods
 
+NOTE: It also provides nextIndex() and previousIndex() methods which return indexes of previous or next elements would be returned by a subsequent call.
