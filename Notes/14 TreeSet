@@ -1,0 +1,12 @@
+
+
+TreeSet
+-TreeSet implements NavigableSet that extends to SortedSet that extends to Set interface.
+-Duplicate elements are not allowed.
+-Null element is not allowed when multiple elements are added.
+-It does not keep insertion order but instead keeps element sorted.
+
+SYNTAX:
+TreeSet<T> variableName = new TreeSet<>();
+TreeSet<T> variableName = new TreeSet<>(comparator);
+TreeSet<T> variableName = new TreeSet<>(collection);
