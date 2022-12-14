@@ -1,0 +1,31 @@
+
+
+NavigableSet Interface
+-It extends to SortedSet interface.
+-It behaves like a SortedSet with the exception of having navigation methods available in addition to the sorting mechanisms of the SortedSet.
+
+
+Important operations of NavigableSet in addition to SortedSet
+1. Find closest element that is less than equal to the given element
+    -floor(element) method returns the greatest element in this set less than or equal to the given element, or null if there is no such element.
+
+2. Find closest element that is more than or equal to the given element
+    -ceiling(element) method returns the closest element in this set greater than or equal to the given element, or null if there is no such element.
+
+3. Find the greatest element that is less than the given element
+    -lower(element) method returns the greatest element in this set less than the given element, or null if there is no such element.
+
+4. Find the smallest element that is more the than given element
+    -higher(element) method returns the smallest element in this set more than the given element, or null if there is no such element.
+
+5. Retrieve and remove first element
+    -pollFirst() method retrieves and removes the first (lowest) element, or returns null if this set is empty.
+
+6. Retrieve and remove last element
+    -pollLast() method retrieves and removes the last (highest) element, or returns null if this set is empty.
+
+7. Reverse order
+    -descendingSet() method returns a reverse order view of the elements contained in this set.
+
+8. Reverse ordered iterator
+    -descendingIterator() method returns an iterator over the elements in this set, in descending order.
