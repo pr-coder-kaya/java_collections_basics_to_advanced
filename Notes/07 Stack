@@ -26,4 +26,6 @@ Important operations of Stack
 	-pop() method is used to pop an element from the top of the stack and removes it.
 
 
-In addition to above methods, empty() method is used to check if the Stack is empty and returns a boolean while search(Object) method is used to check if a particular object exists in the Stack. search() method returns the position of the object if it finds the element, -1 otherwise.
+In addition to above methods, empty() method is used to check if the Stack is empty and returns a boolean
+while search(Object) method is used to check if a particular object exists in the Stack.
+search() method returns the position of the object if it finds the element, -1 otherwise.
