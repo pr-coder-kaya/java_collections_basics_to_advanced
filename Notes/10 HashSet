@@ -1,0 +1,12 @@
+
+
+HashSet
+-HashSet implements Set interface.
+-Duplicate elements are not allowed.
+-It is an unordered collection - does not keep insertion order.
+-Only one null element is allowed.
+
+SYNTAX:
+HashSet<T> variableName = new HashSet<>();
+HashSet<T> variableName = new HashSet<>(initialSize);
+HashSet<T> variableName = new HashSet<>(collection);

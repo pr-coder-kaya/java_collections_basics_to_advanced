@@ -2,7 +2,7 @@
 
 Cursors
 -Cursor is an interface and it is used to retrieve or fetch the objects or elements one by one from the Collection objects.
--Cursor has 3 types
+-Cursor has 3 types:
 	1. Enumeration Interface
 	2. Iterator Interface
 	3. ListIterator Interface

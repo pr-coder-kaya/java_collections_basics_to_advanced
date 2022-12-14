@@ -1,6 +1,6 @@
 
 
-List Interface
+Set Interface
 
 -Set is a collection that does not preserve the insertion order.
 -Unlike lists, sets typically do not allow duplicate elements.

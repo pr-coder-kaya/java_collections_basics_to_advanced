@@ -6,9 +6,9 @@ Stack
 -In addition to the basic push and pop operations, the class provides three more functions of empty, search, and peek. 
 -The class can also be said to extend Vector and treats the class as a stack with the five mentioned functions. 
 -The class can also be referred to as the subclass of Vector.
--It is an ordered collection that allows duplicate objects
--Insertion order is preserved
--null elements are allowed
+-It is an ordered collection that allows duplicate objects.
+-Insertion order is preserved.
+-null elements are allowed.
 
 SYNTAX:
 Stack<T> variableName = new Stack<>();
