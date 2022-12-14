@@ -1,0 +1,26 @@
+
+
+SortedList Interface
+-It extends to Set interface.
+-It adds a feature that stores all the elements in this interface to be stored in a sorted manner.
+
+
+Important operations of SortedList
+1. Get first element
+	-first() method is used to retrieve the first element of the set.
+
+2. Get last element
+    -last() method is used to retrieve the last element of the set.
+
+3. Head set elements
+    -headSet(element) method returns the elements which are less than the element that are present in the sorted set.
+
+4. Tail set elements
+    -tailSet(element) method returns the elements which are greater than or equal to the element that are present in the sorted set.
+
+5. Sub set elements
+    -subSet(element1, element2) method returns a sorted subset from the set containing the elements between element1 (inclusive) and element2 (exclusive).
+
+6. Comparator
+    -comparator() method returns the comparator used to order the elements in this set, or null if this set uses the natural ordering of its elements.
+
