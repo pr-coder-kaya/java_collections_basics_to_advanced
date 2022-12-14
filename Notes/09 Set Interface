@@ -1,0 +1,12 @@
+
+
+List Interface
+
+-Set is a collection that does not preserve the insertion order.
+-Unlike lists, sets typically do not allow duplicate elements.
+
+-Most used Set implementation classes are HashSet, LinkedHashSet and TreeSet.
+-From these;
+    -HashSet does not allow duplicates and can have only one null element and it does not keep insertion order.
+    -LinkedHashSet does not allow duplicates and can have only one null element and it keeps insertion order.
+    -TreeSet does not allow duplicates or any null element and it sorts the element automatically.
