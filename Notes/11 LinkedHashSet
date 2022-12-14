@@ -1,0 +1,14 @@
+
+
+LinkedHashSet
+-Difference from HashSet -> insertion order is preserved.
+-When iterating through a HashSet the order is unpredictable, while a LinkedHashSet lets us iterate through the elements in the order in which they were inserted.
+-LinkedHashSet extends to HashSet class and implements Set interface.
+-Duplicate elements are not allowed.
+-It keeps the insertion order.
+-Only one null element is allowed.
+
+SYNTAX:
+LinkedHashSet<T> variableName = new LinkedHashSet<>();
+LinkedHashSet<T> variableName = new LinkedHashSet<>(initialSize);
+LinkedHashSet<T> variableName = new LinkedHashSet<>(collection);
