@@ -16,7 +16,7 @@ Important operations of NavigableSet in addition to SortedSet
     -offer(element) method inserts the given element to the tail of the queue.
 
 3. Retrieve and delete the head element
-    -remove(element) method retrieves and removes the head of the queue.
+    -remove() method retrieves and removes the head of the queue.
 
 4. Poll element - Retrieve and delete the head element
     -poll(element) method retrieves and removes the head of the queue, or returns null if the queue is empty.

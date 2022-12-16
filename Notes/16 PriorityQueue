@@ -1,0 +1,15 @@
+
+
+PriorityQueue
+-It provides us a way to process the objects based on the priority.
+-Null element is not allowed.
+-It does not keep insertion order but instead keeps element sorted.
+
+SYNTAX:
+PriorityQueue<T> variableName = new PriorityQueue<>();
+PriorityQueue<T> variableName = new PriorityQueue<>(capacity);
+PriorityQueue<T> variableName = new PriorityQueue<>(comparator);
+PriorityQueue<T> variableName = new PriorityQueue<>(collection);
+
+
+
