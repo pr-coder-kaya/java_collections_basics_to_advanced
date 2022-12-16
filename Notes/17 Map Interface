@@ -1,0 +1,11 @@
+
+
+Map Interface
+-It represents a mapping between a key and a value.
+-It is not a subtype of the Collection interface. Therefore it behaves a bit differently from the rest of the collection types.
+-A map contains unique keys while values can be duplicated.
+
+Characteristics of a Map Interface
+    -A Map cannot contain duplicate keys and each key can map to at most one value.
+    -Some implementations allow null key and null values like the HashMap and LinkedHashMap, but some do not like the TreeMap.
+    -The order of a map depends on the specific implementations. For example, TreeMap and LinkedHashMap have predictable orders, while HashMap does not.
