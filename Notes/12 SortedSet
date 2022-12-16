@@ -1,11 +1,11 @@
 
 
-SortedList Interface
+SortedSet Interface
 -It extends to Set interface.
 -It adds a feature that stores all the elements in this interface to be stored in a sorted manner.
 
 
-Important operations of SortedList
+Important operations of SortedSet
 1. Get first element
 	-first() method is used to retrieve the first element of the set.
 
