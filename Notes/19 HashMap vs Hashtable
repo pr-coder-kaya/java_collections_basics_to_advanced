@@ -1,0 +1,6 @@
+
+
+HashMap vs Hashtable
+-Hashtable is synchronized meaning thread-safe while HashMap is not.
+-Hashtable is slower compared to HashMap due to being thread-safe.
+-Hashtable does not allow any null key or values while HashMap allows one null key and multiple null values.
