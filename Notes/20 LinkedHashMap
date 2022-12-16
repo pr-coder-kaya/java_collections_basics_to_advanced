@@ -1,0 +1,13 @@
+
+
+LinkedHashMap
+-Difference from HashMap -> insertion order is preserved.
+-A LinkedHashMap contains values based on the key as HashMap.
+-It implements the Map interface and extends to the HashMap class.
+-Duplicate keys are not allowed while values can be duplicated.
+-It allows only one null key but multiple null values.
+
+SYNTAX:
+LinkedHashMap<K, V> variableName = new LinkedHashMap<>();
+LinkedHashMap<K, V> variableName = new LinkedHashMap<>(initialSize);
+LinkedHashMap<K, V> variableName = new LinkedHashMap<>(collection);
