@@ -1,0 +1,28 @@
+
+
+
+Queue Interface
+-It extends to Collection interface.
+-It is used to hold the elements about to be processed in FIFO (First In First Out) order.
+- It is an ordered list of objects with its use limited to inserting elements at the end of the list and deleting elements from the start of the list.
+
+-Most used Queue implementation classes are PriorityQueue and LinkedList.
+
+Important operations of NavigableSet in addition to SortedSet
+1. Add element
+    -add(element) method inserts the given element to the tail of the queue.
+
+2. Offer element
+    -offer(element) method inserts the given element to the tail of the queue.
+
+3. Retrieve and delete the head element
+    -remove(element) method retrieves and removes the head of the queue.
+
+4. Poll element - Retrieve and delete the head element
+    -poll(element) method retrieves and removes the head of the queue, or returns null if the queue is empty.
+
+5. Retrieve but do not delete the head element
+    -element() method retrieves but does not remove the head of the queue.
+
+6. Peek element - Retrieve but do not delete the head element
+    -peek(element) method retrieves, but does not remove, the head of the queue, or returns null if the queue is empty.
