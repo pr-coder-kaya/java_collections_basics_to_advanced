@@ -1,0 +1,53 @@
+
+
+NavigableMap Interface
+-It extends to SortedMap interface.
+-It behaves like a SortedMap with the exception of having navigation methods available in addition to the sorting mechanisms of the SortedMap.
+
+Important operations of NavigableMap in addition to SortedMap
+1.
+    -floorKey(key) method returns a key-value mapping associated with the least key in the map, or null if the map is empty.
+
+2.
+    -floorEntry(key) method returns a key-value mapping associated with the greatest key less than or equal to the given key, or null if there is no such key.
+
+3.
+    -ceilingKey(key) method returns the least key greater than or equal to the given key, or null if there is no such key.
+
+4.
+    -ceilingEntry(key) method returns a key-value mapping associated with the least key greater than or equal to the given key, or null if there is no such key.
+
+5.
+    -lowerKey(key) method returns the greatest key strictly less than the given key, or null if there is no such key.
+
+6.
+    -lowerEntry(key) method returns a key-value mapping associated with the greatest key strictly less than the given key, or null if there is no such key.
+
+7.
+    -higherKey(key) method returns the least key strictly greater than the given key, or null if there is no such key.
+
+8.
+    -higherEntry(key) method returns a key-value mapping associated with the least key strictly greater than the given key, or null if there is no such key.
+
+9.
+    -firstEntry() method returns a key-value mapping associated with the least key in the map, or null if the map is empty.
+
+10.
+    -lastEntry() method returns a key-value mapping associated with the greatest key in the map, or null if the map is empty.
+
+11.
+    -pollFirstEntry() method removes and returns a key-value mapping associated with the least key in the map, or null if the map is empty.
+
+12.
+    -pollLastEntry() method removes and returns a key-value mapping associated with the greatest key in the map, or null if the map is empty.
+
+13.
+    -descendingMap() method returns a reverse order view of the mappings contained in the map.
+
+14.
+    -descendingKeySet() method returns a reverse order NavigableSet view of the keys contained in the map.
+
+15.
+    -navigableKeySet() method returns a NavigableSet view of the keys contained in the map.
+
+
