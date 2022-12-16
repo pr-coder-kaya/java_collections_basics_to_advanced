@@ -1,0 +1,12 @@
+
+
+HashMap
+-HashMap implements Map interface.
+-It does not keep insertion order.
+-Duplicate keys are not allowed while values can be duplicated.
+-It allows only one null key but multiple null values.
+
+SYNTAX:
+HashMap<K, V> variableName = new HashMap<>();
+HashMap<K, V> variableName = new HashMap<>(initialSize);
+HashMap<K, V> variableName = new HashMap<>(collection);

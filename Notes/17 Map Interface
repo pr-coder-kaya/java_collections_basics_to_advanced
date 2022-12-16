@@ -9,3 +9,37 @@ Characteristics of a Map Interface
     -A Map cannot contain duplicate keys and each key can map to at most one value.
     -Some implementations allow null key and null values like the HashMap and LinkedHashMap, but some do not like the TreeMap.
     -The order of a map depends on the specific implementations. For example, TreeMap and LinkedHashMap have predictable orders, while HashMap does not.
+
+Important operations of Map
+1. Add key-value pair
+    -put(key, value) method is used add a new pair to the map
+
+2. Retrieve value for the given key
+    -get(key) method returns the value mapped to given key, or null if the map contains no mapping for the key.
+
+3. Size of the map
+    -size() method returns the number of key-value mappings in the map.
+
+4. Check if the map is empty
+    -isEmpty() method returns true if the map contains no key-value mappings.
+
+5. Delete all key-value pairs in the map
+    -clear() method removes all of the mappings from the map.
+
+6. Check if the map contains given key
+    -containsKey() method returns true if the map contains a mapping for the specified key.
+
+7. Check if the map contains given value
+    -containsValue() method returns true if the map maps one or more keys to the specified value.
+
+8. Remove a key-value pair from the map
+    -remove(key) method removes the mapping for the specified key from the map if present.
+
+9. Retrieve all the keys as a Set
+    -keySet() method returns a Set of the keys contained in the map.
+
+10. Retrieve all the values as a Collection
+    -values() method returns a Collection of the values contained in the map.
+
+11. Retrieve all the entries as a Set
+    -entrySet() method returns a Set of the mappings contained in the map.
