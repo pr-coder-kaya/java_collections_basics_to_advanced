@@ -3,7 +3,7 @@
 TreeSet
 -TreeSet implements NavigableSet that extends to SortedSet that extends to Set interface.
 -Duplicate elements are not allowed.
--Null element is not allowed when multiple elements are added.
+-Null element is not allowed.
 -It does not keep insertion order but instead keeps element sorted.
 
 SYNTAX:

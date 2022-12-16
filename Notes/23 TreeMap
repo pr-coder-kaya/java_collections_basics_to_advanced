@@ -1,0 +1,12 @@
+
+
+TreeMap
+-It implements NavigableMap that extends to SortedMap that extends to Map interface.
+-Duplicate keys are not allowed while values can be duplicated.
+-No null key but null values are allowed.
+-It does not keep insertion order but instead keeps key-value pairs are sorted based on their keys.
+
+SYNTAX:
+TreeMap<K, V> variableName = new TreeMap<>();
+TreeMap<K, V> variableName = new TreeMap<>(comparator);
+TreeMap<K, V> variableName = new TreeMap<>(collection);
